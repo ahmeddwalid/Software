@@ -1,0 +1,118 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  background-image: url('noise_lines.webp');
+  background-position: center;
+  background-repeat: repeat;
+  color: #333;
+}
+
+h1 {
+  color: #be8f21;
+  text-align: center;
+  margin: 20px 0;
+}
+
+details {
+  margin: 0 auto 20px auto;
+  max-width: 1100px;
+  background-color: #fff;
+  border-radius: 25px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+summary {
+  padding: 15px 20px;
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+  background-color: #260ab0;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px 25px 0 0;
+  transition: background-color 0.3s ease;
+}
+
+summary:hover {
+  background-color: #5d38e0;
+}
+
+section {
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  /* columns: 3; */
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #041e42;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #1034a6;
+}
+
+.collapsible {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.collapsible li {
+  margin-bottom: 5px;
+}
+
+.collapsible-button {
+  background: #5656dd;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+
+.collapsible-button:hover,
+.button-18:focus { 
+  background-color: #4040d1; 
+  color: #ffffff;
+}
+
+.content {
+  display: none;
+  padding: 10px;
+}
+
+.active {
+  display: block;
+}
+
+footer{
+  position: absolute;
+  padding: 7px;
+}
