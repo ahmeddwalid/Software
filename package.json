@@ -14,7 +14,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "format": "prettier --write .",
-    "postdeploy": "echo 'Deployment complete! Visit https://khadija159.github.io/portfolioWebsite/'",
+    "postdeploy": "echo 'Deployment complete! Visit https://ahmeddwalid.github.io/Software/'",
     "postbuild": "echo 'Build complete! Ready for deployment.'"
   },
   "dependencies": {
