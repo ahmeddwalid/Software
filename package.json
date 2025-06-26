@@ -1,0 +1,30 @@
+{
+  "name": "recommended-software",
+  "homepage": "https://ahmeddwalid.github.io/Software/",
+  "description": "A list of Applications I recommended",
+  "author": "Ahmed Walid",
+  "license": "Apache-2.0",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "format": "prettier --write .",
+    "postdeploy": "echo 'Deployment complete! Visit https://khadija159.github.io/portfolioWebsite/'",
+    "postbuild": "echo 'Build complete! Ready for deployment.'"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "gh-pages": "^6.1.1",
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0"
+  }
+}
